@@ -1,0 +1,16 @@
+body{
+    background-color: #e7f8fa;
+}
+
+.container-fluid{
+    color: white;
+    padding: 8px;
+    background-color:#1b325f;
+    border-radius: 4px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #1b325f;
+    color: white;
+}
