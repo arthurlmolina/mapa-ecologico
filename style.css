@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 body{
-    background-color: #e7f8fa;
+    background-color: #F6EFE7;
+}
+
+#map {
+  height: 70vh;
+  width: 100%;
+  border-radius: 15px;
+  margin: 20px auto;
 }
 
 .container-fluid{
