@@ -60,7 +60,14 @@ const pontos = [
     tipo: "Doação de Roupas",
     coordenadas: [-23.4190, -51.9335],
     cor: "red"
-  }
+  },
+    {
+    nome: "Ecoponto Zona 7",
+    endereco: "Av. Colombo, 5030 – Zona 7",
+    tipo: "Coleta Seletiva",
+    coordenadas: [-23.4105, -51.9332],
+    cor: "green"
+  },
 ]
 pontos.forEach(ponto => {
   const marcador = L.marker(ponto.coordenadas, {
