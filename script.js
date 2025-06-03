@@ -41,9 +41,9 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 /*CORES DOS MARCADORES: 
- VERDE: COLETA SELETIVA DE RECICLÁVEIS
+ VERDE: COLETA DE RECICLÁVEIS
  VERMELHO:DESCARTE DE LIXO ELETRÔNICO
- AZUL: DOAÇÃO E REUTILIZAÇÃO DE ROUPAS
+ AZUL: DOAÇÃO DE ROUPAS
  LARANJA: PARADAS DE ÔNIBUS ELÉTRICOS
 */
 const pontos = [
@@ -51,15 +51,15 @@ const pontos = [
     nome: "Ecoponto Zona 7",
     endereco: "Av. Colombo, 5030 – Zona 7",
     tipo: "Coleta Seletiva",
-    coordenadas: [-23.4105, -51.9332],
-    cor: "green"
+    coordenadas: [-23.416036,-51.933370],
+    cor: "blue"
   },
   {
     nome: "Igreja Presbiteriana Renovada",
     endereco: "Av. Mauá, 1500 – Zona 1",
     tipo: "Doação de Roupas",
     coordenadas: [-23.4190, -51.9335],
-    cor: "red"
+    cor: "orange"
   },
     {
     nome: "Ecoponto Zona 7",
