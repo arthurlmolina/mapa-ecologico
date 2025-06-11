@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,22 @@
 
   <link rel="shortcut icon" href="img/so a logo.png" type="image/x-icon">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
 
   <link rel="stylesheet" href="style.css">
   <!--bliblioteca do mapa-->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-  crossorigin=""/>
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-  crossorigin=""></script>
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </head>
 
 <body>
-
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary border-0" style="margin:0px; padding: 0px; box-shadow: 2px 2px 2px 1px #1b325f6c;">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary border-0"
+    style="margin:0px; padding: 0px; box-shadow: 2px 2px 2px 1px #1b325f6c;">
     <div class="container-fluid">
       <img src="img/so a logo.png" class="card-img-top" alt="..." style="width: 3%; height: auto;">
       <a class="navbar-brand" style="color: white;"><b>EcoFinder </b></a>
@@ -41,25 +41,25 @@
     </div>
   </nav>
 
-<!--mapa-->
- <div id="map"></div>
- <div class="container">
-    <div class="row" style="background-color: #F6EFE7;">
-      <div class="col-3 coluna quadrado-cor"  style="background-color: #CB273B">
+  <!--mapa-->
+  <div id="map"></div>
+  <div class="container">
+    <div class="row" style="background-color: #ededed;">
+      <div class="col-3 coluna quadrado-cor" style="background-color: #CB273B">
 
       </div>
       <div class="col-3 coluna quadrado-cor" style="background-color: #2B82CB">
-        
+
       </div>
       <div class="col-3 coluna quadrado-cor" style="background-color: #2AAD27">
-        
+
       </div>
       <div class="col-3 coluna quadrado-cor" style="background-color: #C98123">
-        
+
       </div>
     </div>
 
-    <div class="row" style="background-color: #F6EFE7;">
+    <div class="row" style="background-color: #ededed;">
       <div class="col-3 coluna">
         <p>DESCARTE DE LIXO ELETRONICO</p>
       </div>
@@ -73,8 +73,8 @@
         <p>PONTO DE ÔNIBUS ELÉTRICO</p>
       </div>
     </div>
- </div>
- <!--
+  </div>
+  <!--
  CORES DOS MARCADORES: 
  VERDE: COLETA SELETIVA DE RECICLÁVEIS
  VERMELHO:DESCARTE DE LIXO ELETRÔNICO
@@ -83,35 +83,39 @@
  -->
 
 
-<!-- footer  -->
-    
-<div class="footer">
-  <div class="footer-links">
-    <a href="#"><b>Acessibilidade</b></a>
-    <a href="#"><b>Privacidade</b></a>
-    <a href="#"><b>Termos/Serviços</b></a>
-  </div>
-  <br><br>
+  <!-- footer  -->
 
-  <div style="display: flex; justify-content: center; align-items: center;">
-    <div style="display: flex; align-items: center; gap: 10px;">
-     <input type="text" placeholder="Dúvidas" class="form-control" id="floatingInput" style="height: 40px; width: 350px;">
-     <button class="btn btn-outline-info">Enviar</button>
+  <div class="footer">
+    <div class="footer-links">
+      <a href="#"><b>Acessibilidade</b></a>
+      <a href="#"><b>Privacidade</b></a>
+      <a href="#"><b>Termos/Serviços</b></a>
     </div>
+    <br><br>
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <input type="text" placeholder="Dúvidas" class="form-control" id="floatingInput"
+          style="height: 40px; width: 350px;">
+        <button class="btn btn-outline-info">Enviar</button>
+      </div>
+    </div>
+    <br><br>
+
+    <p class="footer-note">
+      Este é o site oficial da <strong>NossaAep</strong>. Todos os direitos são reservados.
+      As informações e funcionalidades aqui presentes são protegidas por lei e de uso exclusivo do projeto.
+    </p>
+    <br><br>
   </div>
-  <br><br>
-
-  <p class="footer-note">
-    Este é o site oficial da <strong>NossaAep</strong>. Todos os direitos são reservados.
-    As informações e funcionalidades aqui presentes são protegidas por lei e de uso exclusivo do projeto.
-  </p>
-<br><br>
-</div>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 
 </body>
+
 </html>
