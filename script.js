@@ -56,56 +56,56 @@ const pontos = [
     coordenadas: [ -23.422320097083347, -51.93288196011299 ],
     cor: "green"
   },
-  // {
-  //   nome: " ",
-  //   endereco: " ",
-  //   horario: " ",
-  //   tipo: " ",
-  //   coordenadas: [ , ],
-  //   cor: " "
-  // },
-  // {
-  //   nome: " ",
-  //   endereco: " ",
-  //   horario: " ",
-  //   tipo: " ",
-  //   coordenadas: [ , ],
-  //   cor: " "
-  // },
+  {
+    nome: "Terminal Intermodal Urbano de Maringá",
+    endereco: "Av. Adv Horacio Raccanello Filho, 667 - Zona 7, 87020-035",
+    horario: " Segunda a Sábado 5:30 - 23:45 (Domingo 6:30 - 23:45)",
+    tipo: "COLETA DE RECICLÁVEIS (ECOLIX)",
+    coordenadas: [-23.418218597108552, -51.93814551963553],
+    cor: "green"
+  },
+  {
+    nome: "Praça Dep. Renato Celidônio",
+    endereco: "Praça Dep. Renato Celidônio - Zona 01, 87013-220",
+    horario: "Praça pública",
+    tipo: "COLETA DE RECICLÁVEIS (ECOLIX)",
+    coordenadas: [ -23.424459241703406, -51.93849647763585 ],
+    cor: "green"
+  },
   
-  // {
-  //   nome: " ",
-  //   endereco: " ",
-  //   horario: " ",
-  //   tipo: " ",
-  //   coordenadas: [ , ],
-  //   cor: " "
-  // },
-  // {
-  //   nome: " ",
-  //   endereco: " ",
-  //   horario: " ",
-  //   tipo: " ",
-  //   coordenadas: [ , ],
-  //   cor: " "
-  // },
-  // {
-  //   nome: " ",
-  //   endereco: " ",
-  //   horario: " ",
-  //   tipo: " ",
-  //   coordenadas: [ , ],
-  //   cor: " "
-  // },
+  {
+    nome: "Eurogarden",
+    endereco: "Eurogarden - Zona 8, 87051-091",
+    horario: "Espaço público",
+    tipo: "COLETA DE RECICLÁVEIS (ECOLIX)",
+    coordenadas: [ -23.43919065667356, -51.90449753312733],
+    cor: "green"
+  },
+  {
+    nome: "Parque Alfredo Werner Nyffeller",
+    endereco: "R. Bogotá, 755 - Vila Morangueira, 87040-120",
+    horario: "06:00 - 20:30",
+    tipo: "COLETA DE RECICLÁVEIS (ECOLIX)",
+    coordenadas: [ -23.413015517021794, -51.91838160224895 ],
+    cor: "green"
+  },
+  {
+    nome: "Av, R. Ver. Primo Monteschio, 435 - Zona 02, 87010-440",
+    endereco: " ",
+    horario: " ",
+    tipo: "COLETA DE RECICLÁVEIS (ECOLIX)",
+    coordenadas: [ , ],
+    cor: "green"
+  },
   
-  // {
-  //   nome: " ",
-  //   endereco: " ",
-  //   horario: " ",
-  //   tipo: " ",
-  //   coordenadas: [ , ],
-  //   cor: " "
-  // },
+  {
+    nome: " ",
+    endereco: " ",
+    horario: " ",
+    tipo: "COLETA DE RECICLÁVEIS (ECOLIX)",
+    coordenadas: [ , ],
+    cor: "green"
+  },
 
   //DESCARTE DE LIXO ELETRÔNICO
   {
@@ -151,6 +151,7 @@ const pontos = [
   {
     nome: "Tiro de Guerra 05-009",
     endereco: "Av. Mandacaru, 730 - Zona 06, Maringá - PR, 87080-000",
+    horario: "Aberto 24 horas",
     tipo: "DESCARTE DE LIXO ELETRONICO",
     coordenadas: [ -23.407933078526256, -51.95586724045021],
     cor: "red"
