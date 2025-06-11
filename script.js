@@ -90,20 +90,20 @@ const pontos = [
     cor: "green"
   },
   {
-    nome: "Av, R. Ver. Primo Monteschio, 435 - Zona 02, 87010-440",
-    endereco: " ",
-    horario: " ",
+    nome: "Cemitério Municipal de Maringá",
+    endereco: "Av, R. Ver. Primo Monteschio, 435 - Zona 02, 87010-440",
+    horario: "08:00 - 18:00",
     tipo: "COLETA DE RECICLÁVEIS (ECOLIX)",
-    coordenadas: [ , ],
+    coordenadas: [ -23.438062588965067, -51.93123076196329 ],
     cor: "green"
   },
   
   {
-    nome: " ",
-    endereco: " ",
-    horario: " ",
+    nome: "UPA Zona Sul",
+    endereco: "Av. Arquiteto Nildo Ribeiro da Rocha, 865 - Jardim Higienópolis, 87053-270",
+    horario: "Aberto 24 horas",
     tipo: "COLETA DE RECICLÁVEIS (ECOLIX)",
-    coordenadas: [ , ],
+    coordenadas: [ -23.451780169912286, -51.92416183312701 ],
     cor: "green"
   },
 
@@ -156,13 +156,16 @@ const pontos = [
     coordenadas: [ -23.407933078526256, -51.95586724045021],
     cor: "red"
   },
-  //PONTO DE ÔNIBUS ELEÉTRICO
+
+
+  R. Ana Neri, 1073 - Jardim Alvorada, Maringá - PR, 87035-260
+  //PONTO DE ÔNIBUS ELÉTRICO
   {
     nome: " ",
     endereco: " ",
     horario: " ",
     tipo: " ",
-    coordenadas: [ , ],
+    coordenadas : [ , ],
     cor: " "
   },
   {
