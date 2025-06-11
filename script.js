@@ -47,27 +47,167 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
  LARANJA: PARADAS DE ÔNIBUS ELÉTRICOS
 */
 const pontos = [
+  //COLETA COLETA DE RECICLÁVEIS
   {
-    nome: "Ecoponto Zona 7",
-    endereco: "Av. Colombo, 5030 – Zona 7",
-    tipo: "Coleta Seletiva",
-    coordenadas: [-23.416036,-51.933370],
-    cor: "blue"
-  },
-  {
-    nome: "Igreja Presbiteriana Renovada",
-    endereco: "Av. Mauá, 1500 – Zona 1",
-    tipo: "Doação de Roupas",
-    coordenadas: [-23.4190, -51.9335],
-    cor: "orange"
-  },
-    {
-    nome: "Ecoponto Zona 7",
-    endereco: "Av. Colombo, 5030 – Zona 7",
-    tipo: "Coleta Seletiva",
-    coordenadas: [-23.4105, -51.9332],
+    nome: "Maringá Park Shopping",
+    endereco: "Av. São Paulo, 1099 - Zona 01, 87013-040",
+    horario: "10:00 - 22:00 (Domingo 12:00 - 22:00)",
+    tipo: "COLETA DE RECICLÁVEIS",
+    coordenadas: [ -23.422320097083347, -51.93288196011299 ],
     cor: "green"
   },
+  // {
+  //   nome: " ",
+  //   endereco: " ",
+  //   horario: " ",
+  //   tipo: " ",
+  //   coordenadas: [ , ],
+  //   cor: " "
+  // },
+  // {
+  //   nome: " ",
+  //   endereco: " ",
+  //   horario: " ",
+  //   tipo: " ",
+  //   coordenadas: [ , ],
+  //   cor: " "
+  // },
+  
+  // {
+  //   nome: " ",
+  //   endereco: " ",
+  //   horario: " ",
+  //   tipo: " ",
+  //   coordenadas: [ , ],
+  //   cor: " "
+  // },
+  // {
+  //   nome: " ",
+  //   endereco: " ",
+  //   horario: " ",
+  //   tipo: " ",
+  //   coordenadas: [ , ],
+  //   cor: " "
+  // },
+  // {
+  //   nome: " ",
+  //   endereco: " ",
+  //   horario: " ",
+  //   tipo: " ",
+  //   coordenadas: [ , ],
+  //   cor: " "
+  // },
+  
+  // {
+  //   nome: " ",
+  //   endereco: " ",
+  //   horario: " ",
+  //   tipo: " ",
+  //   coordenadas: [ , ],
+  //   cor: " "
+  // },
+
+  //DESCARTE DE LIXO ELETRÔNICO
+  {
+    nome: "Maringá Park Shopping",
+    endereco: "Av. São Paulo, 1099 - Zona 01, 87013-040",
+    horario: "10:00 - 22:00 (Domingo 12:00 - 22:00)",
+    tipo: "DESCARTE DE LIXO ELETRONICO",
+    coordenadas: [-23.422411 , -51.932598],
+    cor: "red"
+  },
+  {
+    nome: "Paço Municipal Silvio Magalhães Barros",
+    endereco: "Av. XV de Novembro, 701 - Zona 01, 87013-230",
+    horario: "08:00 - 11:30, 13:00 - 17:00 (Sábado e Domingo fechado)",
+    tipo: "DESCARTE DE LIXO ELETRONICO",
+    coordenadas: [ -23.424248492593772, -51.939265537585285],
+    cor: "red"
+  },
+  {
+    nome: "Faculdade Maringá",
+    endereco: "Av. Prudente de Morais, 815 - Zona Armazem, 87020-010 ",
+    horario: "07:00 - 23:00 (Sábado e Domingo fechado)",
+    tipo: "DESCARTE DE LIXO ELETRONICO",
+    coordenadas: [ -23.416332293740833, -51.94093457545659],
+    cor: "red"
+  },
+  {
+    nome: "Polícia Militar de Maringá - 4º Batalhão",
+    endereco: "R. Mitsuzo Taguchi, 99 - Vila Nova, 87045-110",
+    horario: " Segunda a sexta 08:00 - 17:30 (exceto quarta 08:00 - 12:00) (Sábado e Domingo fechado)",
+    tipo: "DESCARTE DE LIXO ELETRONICO",
+    coordenadas: [-23.424577108462714, -51.90738906196376],
+    cor: "red"
+  },
+  {
+    nome: "Câmara Municipal de Maringá",
+    endereco: "Av. Papa João XXIII, 239 - Zona 2, 87010-260",
+    horario: "08:00 - 18:00 (Sábado e Domingo fechado)",
+    tipo: "DESCARTE DE LIXO ELETRONICO",
+    coordenadas: [-23.427556158154495, -51.937927177307024 ],
+    cor: "red"
+  },
+  {
+    nome: "Tiro de Guerra 05-009",
+    endereco: "Av. Mandacaru, 730 - Zona 06, Maringá - PR, 87080-000",
+    tipo: "DESCARTE DE LIXO ELETRONICO",
+    coordenadas: [ -23.407933078526256, -51.95586724045021],
+    cor: "red"
+  },
+  //PONTO DE ÔNIBUS ELEÉTRICO
+  {
+    nome: " ",
+    endereco: " ",
+    horario: " ",
+    tipo: " ",
+    coordenadas: [ , ],
+    cor: " "
+  },
+  {
+    nome: " ",
+    endereco: " ",
+    horario: " ",
+    tipo: " ",
+    coordenadas: [ , ],
+    cor: " "
+  },
+  
+  {
+    nome: " ",
+    endereco: " ",
+    horario: " ",
+    tipo: " ",
+    coordenadas: [ , ],
+    cor: " "
+  },
+  //DOAÇÃO DE ROUPAS
+  {
+    nome: " ",
+    endereco: " ",
+    horario: " ",
+    tipo: " ",
+    coordenadas: [ , ],
+    cor: " "
+  },
+  {
+    nome: " ",
+    endereco: " ",
+    horario: " ",
+    tipo: " ",
+    coordenadas: [ , ],
+    cor: " "
+  },
+  
+  {
+    nome: " ",
+    endereco: " ",
+    horario: " ",
+    tipo: " ",
+    coordenadas: [ , ],
+    cor: " "
+  },
+
 ]
 pontos.forEach(ponto => {
   const marcador = L.marker(ponto.coordenadas, {
@@ -77,6 +217,7 @@ pontos.forEach(ponto => {
   marcador.bindPopup(`
     <strong>${ponto.nome}</strong><br>
     <em>${ponto.tipo}</em><br>
-    ${ponto.endereco}
+    ${ponto.endereco}<br>
+    <strong>${ponto.horario}</strong>
   `);
 });
