@@ -216,29 +216,29 @@ const pontos = [
   },
   //DOAÇÃO DE ROUPAS
   {
-    nome: " ",
-    endereco: " ",
-    horario: " ",
-    tipo: " ",
-    coordenadas: [ , ],
-    cor: " "
+    nome: "Albergue Santa Luiza de Marillac",
+    endereco: "R. Fernão Dias, 840 - Zona 09 - 87014-000 ",
+    horario: "Aberto 24 horas / 7 dias por semana ",
+    tipo: "DOAÇÃO DE ROUPAS",
+    coordenadas: [ -23.418764099517908, -51.951443865242545],
+    cor: "blue"
   },
   {
-    nome: " ",
-    endereco: " ",
-    horario: " ",
-    tipo: " ",
-    coordenadas: [ , ],
-    cor: " "
+    nome: "Lar Preservação da Vida",
+    endereco: "Endereço: R. Pioneiro Alberto Biazón, 637 - Vila Marumby - 87005-310 ",
+    horario: "Segunda a sexta: 08:00 - 17:00 (Sábado e Domingo fechado)",
+    tipo: "DOAÇÃO DE ROUPAS",
+    coordenadas: [ -23.448443379268465, -51.926147471164455 ],
+    cor: "blue"
   },
   
   {
-    nome: " ",
-    endereco: " ",
-    horario: " ",
-    tipo: " ",
-    coordenadas: [ , ],
-    cor: " "
+    nome: "Loja da Solidariedade",
+    endereco: " Av. Brasil, 5620 - Zona 05 - 87015-280",
+    horario: "Segunda a sexta: 11:00 - 18:00 / Sábado: 09:00 - 13:00 (Domingo fechado)",
+    tipo: "DOAÇÃO DE ROUPAS ",
+    coordenadas: [ -23.423259731873994, -51.95642641379679 ],
+    cor: "blue"
   },
 
 ]

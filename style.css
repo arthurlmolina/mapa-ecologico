@@ -67,3 +67,25 @@ body{
   line-height: 1.5;
 }
 
+
+.icon-circle {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  margin-bottom: 5px;
+}
+
+.icon-circle:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.icon-circle img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
