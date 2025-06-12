@@ -106,6 +106,14 @@ const pontos = [
     coordenadas: [ -23.451780169912286, -51.92416183312701 ],
     cor: "green"
   },
+  {
+    nome: "UPA Zona Norte",
+    endereco: "R. Ana Neri, 1073 - Jardim Alvorada, 87035-260",
+    horario: "Aberto 24 horas",
+    tipo: "COLETA DE RECICLÁVEIS (ECOLIX)",
+    coordenadas: [ -23.39537819753158, -51.91327500075375 ],
+    cor: "green"
+  },
 
   //DESCARTE DE LIXO ELETRÔNICO
   {
@@ -150,24 +158,45 @@ const pontos = [
   },
   {
     nome: "Tiro de Guerra 05-009",
-    endereco: "Av. Mandacaru, 730 - Zona 06, Maringá - PR, 87080-000",
+    endereco: "Av. Mandacaru, 730 - Zona 06, 87080-000",
     horario: "Aberto 24 horas",
     tipo: "DESCARTE DE LIXO ELETRONICO",
     coordenadas: [ -23.407933078526256, -51.95586724045021],
     cor: "red"
   },
 
-
-  R. Ana Neri, 1073 - Jardim Alvorada, Maringá - PR, 87035-260
   //PONTO DE ÔNIBUS ELÉTRICO
   {
-    nome: " ",
-    endereco: " ",
-    horario: " ",
-    tipo: " ",
-    coordenadas : [ , ],
-    cor: " "
+    nome: "Linha 169 JD. Alvorada (Terminal ↔ Bairro)",
+    endereco: `
+    <strong>🟠 Sentido: Para o Terminal</strong><br>
+    Início no JD. Alvorada, fim no Terminal Intermodal<br>
+    Paradas: Rua Malvino Gardin, R. Guarino A. Basseto, Estrada Acopiara, Av. Pedro Taques (vários trechos), Av. Roosevelt, Av. Mauá<br>
+    Duração média: 24 minutos<br><br>
+
+    <strong>🟠 Sentido: Para o Bairro</strong><br>
+    Início no Terminal Intermodal, fim no JD. Alvorada<br>
+    Paradas: Terminal (Plataforma 2), Av. Mauá (Shopping), Av. Pedro Taques, Praça Ary de Lima, Av. Roosevelt, R. Nilo Cairo, R. Malvino Gardin<br>
+    Duração média: 21 minutos
+      `,
+    horario: `
+    <strong>🕒 Horários:</strong><br>
+
+    <strong>➡️ Sentido Terminal:</strong><br>
+    Seg a Sex: 06:15 - 22:50<br>
+    Sábado: 06:00 - 23:00<br>
+    Domingo: 06:45 - 23:00<br><br>
+
+    <strong>⬅️ Sentido Bairro:</strong><br>
+    Seg a Sex: 06:50 - 23:30<br>
+    Sábado: 06:30 - 23:30<br>
+    Domingo: 07:30 - 23:30
+      `,
+    tipo: "PARADA DE ÔNIBUS ELÉTRICO (LINHA 169)",
+    coordenadas: [-23.418218597108552, -51.93814551963553],
+    cor: "orange"
   },
+
   {
     nome: " ",
     endereco: " ",
