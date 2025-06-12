@@ -196,24 +196,6 @@ const pontos = [
     coordenadas: [-23.418218597108552, -51.93814551963553],
     cor: "orange"
   },
-
-  {
-    nome: " ",
-    endereco: " ",
-    horario: " ",
-    tipo: " ",
-    coordenadas: [ , ],
-    cor: " "
-  },
-  
-  {
-    nome: " ",
-    endereco: " ",
-    horario: " ",
-    tipo: " ",
-    coordenadas: [ , ],
-    cor: " "
-  },
   //DOAÇÃO DE ROUPAS
   {
     nome: "Albergue Santa Luiza de Marillac",
